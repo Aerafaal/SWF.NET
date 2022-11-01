@@ -3,6 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD9F33E8-08CF-43E2-84DD-B38431BDF00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWF.NET", "src\SWF.NET\SWF.NET.csproj", "{88BD68DC-3704-428F-A5FE-25D640035CC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SWF.NET.ZIP", "src\SWF.NET.ZIP\SWF.NET.ZIP.csproj", "{F365BACB-4CBD-4E4A-A8F5-7946D62770E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +16,19 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88BD68DC-3704-428F-A5FE-25D640035CC1} = {AD9F33E8-08CF-43E2-84DD-B38431BDF00C}
+		{F365BACB-4CBD-4E4A-A8F5-7946D62770E6} = {AD9F33E8-08CF-43E2-84DD-B38431BDF00C}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88BD68DC-3704-428F-A5FE-25D640035CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BD68DC-3704-428F-A5FE-25D640035CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BD68DC-3704-428F-A5FE-25D640035CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BD68DC-3704-428F-A5FE-25D640035CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F365BACB-4CBD-4E4A-A8F5-7946D62770E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F365BACB-4CBD-4E4A-A8F5-7946D62770E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F365BACB-4CBD-4E4A-A8F5-7946D62770E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F365BACB-4CBD-4E4A-A8F5-7946D62770E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
